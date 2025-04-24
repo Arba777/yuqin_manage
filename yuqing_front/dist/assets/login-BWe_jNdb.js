@@ -1,0 +1,1 @@
+import{s as e}from"./request-KPIbsDrP.js";function o(){return{login:r=>e({url:"/api/v1/login",method:"post",data:r}),register:r=>e({url:"/api/v1/register",method:"post",data:r}),getSchoolList:()=>e({url:"/api/v1/school_name/",method:"get"})}}export{o as u};
